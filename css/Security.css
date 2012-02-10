@@ -1,0 +1,117 @@
+/* simple reset */
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, dl, dt, dd, form, a, fieldset, input, th, td  {  
+	margin: 0; padding: 0; outline: none;  list-style:none;
+}
+
+img, iframe {
+	border:none;
+}
+
+/**/
+
+html {
+	background:url(../images/body-bg.jpg) center no-repeat #F0F0F0;
+}
+
+body {
+	width:300px !important;
+	margin:0 auto;
+	background:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#555;
+	font-size:13px;
+	padding:10%;
+}
+
+form {
+	padding:20px 20px 20px 20px;
+	box-shadow:0 1px 3px #AAA;
+	border:2px solid #FFF;
+	margin:10px 0 0 0;
+	background:#F0F0F0;
+	background:rgba(230, 230, 230, 0.3);
+}
+
+body.typography h1 {
+	color:#CCC;
+	text-align:center;
+}
+
+p {
+	margin:1em 0 0.5em 0;
+}
+
+p#ForgotPassword a {
+	color:#8BA821;
+}
+
+/* form */
+
+fieldset {
+	border:none;
+}
+
+div.field, p.field {
+	margin:0 0 14px 0;
+}
+
+input.text, textarea, select {
+	padding:7px;
+	width:80%;
+	max-width:300px;
+	border:none;
+	border:1px solid #FFF;
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+	margin:1px;
+	background-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#666;
+	border-radius:3px;
+}
+
+input.text:focus, textarea:focus, select:focus {
+	margin:0;
+	border:2px solid #8BA821;
+	color:#333;
+}
+
+label {
+	font-size:1.1em;
+	padding:2px 0 4px 0;
+	display:inline-block;
+}
+
+label.required {
+	color:white !important;
+	background-color:#de4a4a;
+	margin-left:8px;
+	padding:4px;
+	font-size:0.8em;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #c3334a;
+}
+
+input.action {
+	padding:5px 8px 5px 8px;
+}
+
+div.Actions {
+	margin:0px 0 5px 0;
+}
+
+p.message {
+	background-color:#fded97;
+	border:1px solid #d5bc2f;
+	padding:4px;
+	color:#333;
+}
+
+p.message.bad {
+	background-color:#ed7777;
+	border:1px solid #c95252;
+	color:#710c0c;
+	padding:8px;
+}
